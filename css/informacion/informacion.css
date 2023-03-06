@@ -1,4 +1,6 @@
 .informacion{
-    background-color: var(--verde_marino);
+   color: #00161C;
+    background-image:url(../../imagenes/pagina_web.png);
     padding: 10px;
 }
+
