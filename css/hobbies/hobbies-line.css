@@ -1,0 +1,14 @@
+.hobbies__line{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    
+}
+
+@media screen and (min-width: 768px){
+    .hobbies__line{
+       justify-content: space-evenly;
+    }
+    
+}

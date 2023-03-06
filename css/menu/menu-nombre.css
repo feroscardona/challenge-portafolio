@@ -1,0 +1,11 @@
+.menu__nombre{
+    font-family: pacifico, cursive;
+    font-size: 1.1rem;
+    color: var(--color-fuente);
+    margin-bottom: 1rem;
+}
+.menu__nombre{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

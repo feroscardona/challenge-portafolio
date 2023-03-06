@@ -1,0 +1,15 @@
+button {
+        cursor: pointer;
+        width: 85.6px;
+        background-color: var(--verde-degrade4);
+        margin-bottom: 5px;
+        border-radius: 3px;
+        border: 1px solid;
+        border-color: rgba(19, 88, 22, 0.845);
+        color: rgba(19, 88, 22, 0.845);
+    }
+    button:hover {
+        background-color: var(--verde-semioscuro);
+        color: aliceblue;
+        transform: scale(1.05);
+    }

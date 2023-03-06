@@ -1,0 +1,13 @@
+.menu{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: var(--verde_marino);
+ padding: 1.5rem;
+}
+
+@media screen and (min-width: 760px) {
+    .menu{
+        align-items: flex-end
+    }
+}

@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--verde-semioscuro);
+    padding: 1rem;
+    
+}
+
+@media screen and (min-width: 750px ){
+    .footer{
+        padding: 2rem;
+    }
+}

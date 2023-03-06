@@ -1,0 +1,15 @@
+.menu__link{
+    font-family: Cambria;
+   
+    vertical-align: 10%;
+    
+    font-size: 0.7rem;
+    color:whitesmoke;
+    
+   
+    
+}
+.menu__link:hover { 
+    color: rgb(61, 213, 160);  
+    text-decoration: underline;
+}

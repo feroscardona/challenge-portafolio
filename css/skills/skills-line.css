@@ -1,0 +1,7 @@
+.skills__line{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,34 @@
+h2{
+    font-size: 1rem;
+    font-family: pacifico, cursive;
+    color:var(--color-fuente);
+    line-height: 15px;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    
+}
+p{
+    font-family: cambria;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+h3{
+   
+    font-size: 0.7rem;
+    font-weight: 800;
+    font-family: monospace;
+    margin-bottom: 5px;
+}
+li{
+    font-family: cambrian;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+   h2{
+    font-size: 1.5rem;
+   }
+    
+}
