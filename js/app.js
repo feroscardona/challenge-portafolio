@@ -1,6 +1,6 @@
 import { valida } from "../js/validaciones.js";
 
-const inputs = document.querySelectorAll("input");
+const inputs = document.querySelectorAll(".formcontato__input");
 
 inputs.forEach((input )=>{
    
@@ -9,3 +9,6 @@ inputs.forEach((input )=>{
         valida(input.target)
     });
 });
+
+
+

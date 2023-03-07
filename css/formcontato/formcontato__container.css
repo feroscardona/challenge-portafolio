@@ -1,0 +1,69 @@
+
+
+.formcontato-container {
+  font-weight: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.formcontato__input {
+  box-sizing: border-box;
+  border-bottom: 1px solid brown;
+  padding: 1.375rem 0.5rem 0.5rem;
+  height: 3.25rem;
+  width: 100%;
+}
+
+.formcontato__input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+.formcontato__input:focus {
+  outline: none;
+}
+
+.input-label {
+  position: absolute;
+  top: 1.375rem;
+  left: 0.5rem;
+  font-size: 1rem;
+
+  transition: all 0.25s;
+}
+
+.formcontato__input:not(:placeholder-shown) + .input-label,
+.iformcontato__input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+
+.input-container--invalid {
+  margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+  border: 1px solid red;
+  border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+  color: red;
+}
+
+.input-message-error {
+  display: none;
+}
+
+.input-container--invalid .input-message-error {
+  color: red;
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
