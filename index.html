@@ -216,10 +216,10 @@
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre"required maxlength="50" placeholder="Nombre" >
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto"required>
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
+                        <input class="formcontato__input" type="text" name="nombre"required maxlength="50" placeholder="Nombre" data-tipo="nombre" >
+                        <input class="formcontato__input" type="email" name="email"required placeholder="E-mail"  data-tipo="email">
+                        <input class="formcontato__input" type="text" name="asunto"required placeholder="Assunto" data-tipo="texto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"required placeholder="Mensaje"  data-tipo="mensaje"></textarea>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>
@@ -232,7 +232,8 @@
             <p>2023</p>
         </div>
     </footer>
-    <script type="module" src="js/botonPdf.js"></script>
+    <script  src="js/botonPdf.js"></script>
+    <script type="module" src="js/app.js"></script>
   
 </body>
 </html>
